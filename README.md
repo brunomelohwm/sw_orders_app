@@ -6,7 +6,7 @@ Aplicativo Flutter desenvolvido como parte de um teste técnico para consumo de 
 
 ##  Decisões Técnicas
 - Autenticação via OAuth2: tokens são persistidos localmente com shared_preferences, com suporte a renovação de token (refresh_token) ao expirar.
-- Login com e-mail: mesmo com a documentação sugerindo username como inteiro, optei por String para compatibilidade com e-mails ou outro um username válido.
+- Login com e-mail: mesmo com a documentação sugerindo username como inteiro, optei por String para compatibilidade com e-mails ou outro username válido.
 - Tela de Login: incluída para viabilizar autenticação e gerenciamento de sessão.
 - AuthWrapper: criado um widget de controle (AuthWrapper) que redireciona o usuário automaticamente para a tela de login ou pedidos, com base no estado atual da autenticação.
 - Logout: implementado botão de logout com limpeza de tokens e redirecionamento para a tela de login.
