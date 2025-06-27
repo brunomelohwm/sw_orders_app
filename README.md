@@ -35,14 +35,14 @@ Aplicativo Flutter desenvolvido como parte de um teste técnico para consumo de 
 ## Estrutura do Projeto
 
 lib/
-├── core/ # Helpers, utilitários e constantes
-│ ├── helpers/
-│ └── utils/
-├── models/ # Modelos de dados (ex: OrderModel, TokenModel)
-├── services/ # Camada de acesso à API (ex: AuthService, UserService)
-├── view_models/ # Camada de ViewModels (ex: AuthViewModel, OrdersViewModel)
-├── views/ # Telas da aplicação (ex: Login, Orders, New Order)
-└── main.dart # Entrada da aplicação
+├── core/           # Helpers, utilitários e constantes
+│   ├── helpers/
+│   └── utils/
+├── models/         # Modelos de dados (ex: OrderModel, TokenModel)
+├── services/       # Camada de acesso à API (ex: AuthService, UserService)
+├── view_models/    # Camada de ViewModels (ex: AuthViewModel, OrdersViewModel)
+├── views/          # Telas da aplicação (ex: Login, Orders, New Order)
+└── main.dart       # Entrada da aplicação
 
 ---
 
