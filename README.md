@@ -59,7 +59,8 @@ Como rodar o projeto
 **Pré-requisitos:**
 
 - Flutter SDK (versão recomendada: `3.22.0` ou superior)
-- Dart SDK
+- Link para instalação do flutter - https://docs.flutter.dev/get-started/install
+- Dart SDK (vem junto com o Flutter)
 - Emulador Android/iOS, dispositivo físico ou web.
 
 ```bash
